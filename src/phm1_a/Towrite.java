@@ -1,4 +1,4 @@
-package phm;
+package phm1_a;
 
 class Towrite {
 	int[] prefix;

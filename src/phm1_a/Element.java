@@ -1,4 +1,4 @@
-package phm;
+package phm1_a;
 
 /* This file is copyright (c) 2008-2015 Philippe Fournier-Viger
 * 

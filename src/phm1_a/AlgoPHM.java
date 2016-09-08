@@ -1,4 +1,4 @@
-package phm;
+package phm1_a;
 
 /* This file is copyright (c) 2008-2016 Philippe Fournier-Viger
 * 
@@ -37,8 +37,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.PriorityQueue;
-
-import phm.MemoryLogger;
 
 /**
  * This is an implementation of the "PHM" algorithm for Periodic High-Utility Itemsets Mining

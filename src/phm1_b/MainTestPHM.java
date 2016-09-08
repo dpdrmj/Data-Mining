@@ -1,11 +1,9 @@
-package phm;
+package phm1_b;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URL;
-import java.util.Scanner;
 
-import phm.AlgoPHM;
 
 /**
  * Example of how to use the PHM algorithm from the source code.
@@ -14,8 +12,8 @@ import phm.AlgoPHM;
 public class MainTestPHM {
 
 	public static void main(String [] arg) throws IOException{
-
-		String output = ".//output.txt";
+		
+		String output = "output/1_b.txt";
 
 		// =======================
 		// EXAMPLE FROM THE ARTICLE : 
@@ -28,12 +26,12 @@ public class MainTestPHM {
 		// =======================
 		
 		// Applying the PHM algorithm
-		int k;
-		System.out.println("Enter the value of k: ");
-		Scanner in = new Scanner(System.in);
-		k = in.nextInt();
-		in.close();
-		AlgoPHM algorithm = new AlgoPHM(k);
+		//int k;
+		//System.out.println("Enter the value of k: ");
+		//Scanner in = new Scanner(System.in);
+		//k = in.nextInt();
+		//in.close();
+		AlgoPHM algorithm = new AlgoPHM();
 		// To disable some optimizations:
 		//algorithm.setEnableEUCP(false); 
 		//algorithm.setEnableESCP(false);
