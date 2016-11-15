@@ -500,7 +500,9 @@ public class AlgoPHM {
 
 		// Mine the database recursively
 		phm(itemsetBuffer, 0, null, listOfUtilityLists, minUtility);
+		
 		int tempSize=0;
+		
 		while(!pq.isEmpty())
 		{
 			Towrite mtemp = pq.poll();
